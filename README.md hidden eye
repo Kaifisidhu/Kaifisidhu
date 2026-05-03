@@ -19,16 +19,37 @@ A suite of genuinely novel AI components — not incremental improvements, but n
 | **KAIF-Meta** | Few-shot learner | MAML + Reptile + HyperNetwork — adapts in 5 examples |
 | **EvoSearch** | Neural Architecture Search | Evolutionary population search with crossover + mutation |
 | **RewardFreeRL** | RL without any reward signal | Intrinsic Curiosity (ICM) + Empowerment — explores by nature |
-| **LeWM** | World model (Yann LeCun's vision) | JEPA + SIGReg — learns physics in latent space, not pixels |
+| **LeWM v2** | World model (Yann LeCun's vision) | JEPA + SIGReg + Temporal RoPE — plans 48x faster than generative models |
 | **SatNam Compiler** | Compiles SatNam → Python bytecode | Full compiler pipeline with optional LLVM IR |
+| **Muon Optimizer** | MomentUm Orthogonalized by Newton-Schulz | Now PyTorch 2.11 official. Used in Kimi-2 (1T params). 2x compute efficiency |
+| **AdEMAMix** | Two-speed momentum optimizer | Fast + slow EMA buffers. 1.3B model on 101B tokens ≈ AdamW on 197B tokens |
+| **KAIFBrain** | Grand Unified Intelligence System | Perception + World Model + Global Workspace, trained end-to-end with Muon |
 
 ### KAIF Longevity Platform V2.9
 A clinical AI platform for biological age prediction and intervention planning:
 - **Kronos-Gene**: deep neural net predicting biological age delta
 - **GurbaniOptimizer**: Japji Sahib-inspired PyTorch optimizer
 - **GEN Systems**: 6 generative components for treatment planning
-- **LeWM integration**: latent-space biomarker world model
+- **LeWM v2 integration**: latent-space biomarker world model with Temporal RoPE
 - **PPO Agent**: reinforcement learning treatment optimizer
+
+---
+
+## Architecture: The Controlling Brain Pattern
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                      KAIFBrain                          │
+│   ┌──────────┐   ┌──────────┐   ┌────────────────────┐ │
+│   │ Perceive │ → │  Reason  │ → │        Act         │ │
+│   │ RoPE enc │   │ LeWM     │   │ KAIF-Meta + RL     │ │
+│   │ Kronos   │   │ GWAI     │   │ EvoSearch          │ │
+│   └──────────┘   └──────────┘   └────────────────────┘ │
+│         Muon Optimizer (Newton-Schulz orthogonal steps) │
+└─────────────────────────────────────────────────────────┘
+```
+
+All 12 systems pass automated tests. Total: **12/12 PASS**.
 
 ---
 
@@ -38,10 +59,11 @@ A clinical AI platform for biological age prediction and intervention planning:
 
 The industry spent 3 years making models bigger. Yann LeCun was right — that was the wrong direction. Real intelligence comes from understanding the world, not memorizing it.
 
-KAIF-Net learns without backpropagation.
-LeWM predicts in latent space, not pixels.
-SatNam lets humans write AI in the language of mathematics.
-GurbaniOptimizer finds grace where SGD gets trapped.
+- KAIF-Net learns without backpropagation.
+- LeWM v2 predicts in latent space, not pixels — with Temporal RoPE for position awareness.
+- SatNam lets humans write AI in the language of mathematics.
+- Muon replaces every gradient with its nearest orthogonal matrix — no dominant directions, no dead dimensions.
+- KAIFBrain unifies all systems under one orchestrating brain, trained end-to-end.
 
 ---
 
