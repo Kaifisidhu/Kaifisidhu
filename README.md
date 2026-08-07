@@ -9,7 +9,7 @@ Builder, researcher, and lifelong learner
 - **[Weft](https://github.com/Kaifisidhu/weft)** — A browser built for AI agents, not humans. Poison-resistant memory, WebMCP discovery, plan-then-execute harness, and deep search with citations.
 - **[AXON-QIM](https://github.com/Kaifisidhu/AXON-QIM)** — Quantum Information Manifold framework for sub-2nm EUV lithography.
 - **[Skyscope](https://github.com/Kaifisidhu/Skyscope)** — Large-scale space image processor for astronomical data.
-- **[MCP-validator](https://github.com/Kaifisidhu/MCP-validator-)** — Checking AI alignment and safety for Model Context Protocol tools.
+- **[MCP-validator](https://github.com/Kaifisidhu/MCP-validator)** — Checking AI alignment and safety for Model Context Protocol tools.
 - **[MORPHIUM](https://github.com/Kaifisidhu/MORPHIUM)** — Electromagnetism-first engineering edition.
 
 ### Focus areas
